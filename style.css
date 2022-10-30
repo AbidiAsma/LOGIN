@@ -47,7 +47,9 @@
     background-color: rgb(221, 81, 81);
     margin-top: 30px;
 }
-
+.parent .welcome .welcome-content button:hover {
+    background-color: gray;
+}
 /**end welcome */
 
 /**start login **/
@@ -72,7 +74,12 @@ ul{
     list-style-type:none;
     display: inline-flex;
     float: right;
-
+}
+.fa-facebook:hover{
+    background-color: gray;
+}
+.fa-instagram:hover{
+    background-color: gray;
 }
 form{
     width: 360px;
@@ -113,6 +120,9 @@ input[type=text], select {
     border-radius: 4px;
     box-sizing: border-box;
     background-color: rgb(221, 81, 81);
+  }
+ input[type=submit]:hover{
+    background-color: gray;
   }
   .checkbox{
     float: left;
